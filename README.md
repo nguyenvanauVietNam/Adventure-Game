@@ -70,7 +70,7 @@ Configuration:
 
 To show a demo of the gameplay with the dynamic top display and message clearing, add a GIF that captures the console interactions.
 
-![Project Demo](adventure_game.py)  
+![Project Demo](rungame.gif)  
 *Figure 2: GIF demonstrating the dynamic top display and gameplay in action.*
 
 ---
