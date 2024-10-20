@@ -43,6 +43,7 @@ The following checklist shows the criteria met by the project:
       The code includes multiple functions, each with a single responsibility to reduce repetition and improve readability.
 - [x] **Write code that follows the standard Python style guide.**  
       The `pycodestyle` tool reports zero errors and zero warnings.
+      please run file: pycodestyles_export_csv.py if show display : "This file adventure_game.py is not issue pycodestyle"
 - [x] **Test code and produce an error-free program.**  
       The game is playable, runs from start to finish, and handles all scenarios without crashing.
 

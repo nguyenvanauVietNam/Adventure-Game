@@ -1,3 +1,79 @@
+# # You can use this workspace to write and submit your adventure game project.
+# #print Print descriptions of what's happening for the player
+# print("You find yourself standing in an open field, filled with grass and yellow wildflowers.")
+# print("Rumor has it that a wicked fairie is somewhere around here, and has been terrifying the nearby village...")
+
+# #Pausing between printing descriptions
+# import time
+# print("Hello")
+# time.sleep(2)
+# print("world!")
+
+# #Give the player some choices
+# print("Enter 1 to knock on the door of the house.")
+# print("Enter 2 to peer into the cave.")
+# choice = input("What would you like to do? (Please enter 1 or 2): ")
+
+# if choice == '1':
+#     print("You walk up to the door of the house and knock. A voice calls out asking who you are.")
+# elif choice == '2':
+#     print("You peer cautiously into the cave. It's dark and spooky, but you feel a sense of adventure.")
+# else:
+#     print("Invalid choice. Please enter 1 or 2.")
+
+# #Make sure the player gives a valid input
+# def valid_input(prompt):
+#     while True:
+#         choice = input(prompt)
+#         if choice in ['1', '2']:
+#             return choice
+#         else:
+#             print("Please enter 1 or 2.")
+
+# print("valid_input: ", valid_input("Enter 1 or 2: "))
+
+# #Add functions and refactor your code
+# def fight():
+#     print("You engage in a fierce battle!")
+#     # Add more details about the fight, outcomes, and choices here
+#     # For example, you could ask the player if they want to attack or flee
+
+# def cave():
+#     print("You enter the dark cave. It's damp and eerie.")
+#     # Describe what the player sees and what choices they have
+#     # For example, you could give options to explore deeper or leave the cave
+
+# def field():
+#     print("You run back to the field. The sun is shining brightly.")
+#     # Describe the field and what the player can do next
+#     # For example, you could offer choices to go back to the house or explore the forest
+
+# def house():
+#     print("You approach the house. The door is slightly ajar.")
+#     # Describe the house and what the player can do inside
+#     # For example, you could ask if they want to knock on the door or enter
+
+# # Example of how to call these functions based on player choice
+# def main():
+#     print("Welcome to the Adventure Game!")
+#     choice = valid_input("Enter 1 to fight.\nEnter 2 to explore the cave.\n(Please enter 1 or 2): ")
+    
+#     if choice == '1':
+#         fight()
+#     elif choice == '2':
+#         cave()
+#     elif choice == '3':
+#         field()
+#     elif choice == '4':
+#         house()
+#     else:
+#         print("Invalid choice. Please enter 1 or 2 or 3 or 4.")   
+
+# # Start the game
+# main()
+
+
+#this my game suggestions
 import time
 import random
 from datetime import datetime
